@@ -7,13 +7,13 @@ public class Sample
         var c1 = new Customer();
         var c2 = new Customer();
 
-        c1.custmerID = 123;
-        c1.customerName = "Farook";
-        c2.custmerID = 21112;
-        c2.customerName = "Fazrin";
+        c1.CustomerId = 123;
+        c1.CustomerName = "Farook";
+        c2.CustomerId = 21112;
+        c2.CustomerName = "Fazrin";
 
-        WriteLine("Customer Id : {0}, Customer Name:{1}", c1.custmerID, c1.customerName);
-        WriteLine("Customer Id : {0}, Customer Name:{1}", c2.custmerID, c2.customerName);
+        WriteLine("Customer Id : {0}, Customer Name:{1}", c1.CustomerId, c1.CustomerName);
+        WriteLine("Customer Id : {0}, Customer Name:{1}", c2.CustomerId, c2.CustomerName);
         ReadKey();
 
     }

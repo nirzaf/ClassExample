@@ -1,6 +1,6 @@
 ﻿public class Customer
 {
-    public int custmerID;
-    public string customerName;
+    public int CustomerId;
+    public string CustomerName;
 }
 
