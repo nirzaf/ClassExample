@@ -12,10 +12,8 @@ public class Sample
         c2.custmerID = 21112;
         c2.customerName = "Fazrin";
 
-
         WriteLine("Customer Id : {0}, Customer Name:{1}", c1.custmerID, c1.customerName);
         WriteLine("Customer Id : {0}, Customer Name:{1}", c2.custmerID, c2.customerName);
-
         ReadKey();
 
     }
